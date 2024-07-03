@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Moul&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --bg-clr: #ead376;
+    --white: #fff;
+    --primary-clr: #2f2929;
+    --secondary-clr: #5265a7;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-family: "Battambang", system-ui;
+  }
+  
+  body {
+    background: var(--bg-clr);
+    font-size: 12px;
+    line-height: 23px;
+    color: var(--primary-clr);
+    padding: 0 20px;
+  }
+  
+  .invoice {
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    background: var(--white);
+    padding: 50px 60px;
+    position: relative;
+    margin: 20px auto;
+  }
+
+  h2 {
+    font-family: "Moul", serif;
+    color: #f3d55d;
+    text-shadow: 2px 2px #080702;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    color: #f3dc0c;
+    text-shadow: 1px 1px #080702;
+    font-size: 15px;
+  }
+
+  .n1 {
+    border: 1px solid black;
+    padding: 0px 4px;
+    margin-right: 1px;
+  }
+
+  .header {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+  }
+
+  .i_row{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .body1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .body1_left {
+    width: 48%;
+  }
+
+  .body1_right {
+    width: 48%;
+  }
+
+  .w_55 {
+    width: 60%;
+  }
+
+  .w_15 {
+    width: 25%;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  th:last-child {
+    text-align: right;
+  }
+
+  .body2_1t {
+    width: 100%;
+  }
+
+  .t_20 {
+    width: 80%;
+  }
+
+  .body2_1t table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .body2_1t th {
+    text-align: left;
+  }
+
+  .body2_1t td {
+    padding: 0.3rem;
+    border-bottom: 1px solid black;
+  } 
+
+  .body2_1t th {
+    padding: 0.3rem;
+    border-bottom: 1px solid black;
+  }
+
+  .body2_1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .body3_1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+ .t_right {
+  text-align: right;
+  width: 30%;
+ }
+
+ .t_right1 {
+  text-align: right;
+  width: 50%;
+ }
+
+ .total {
+  width: 40%;
+ }
+
+ .body4 {
+  text-align: center;
+ }
+
+ fieldset {
+  border-radius: 10px;
+  border: 1px solid rgb(189, 188, 188);
+  padding: 3px 10px;
+ }
+
+ p td {
+  font-weight: 400;
+ }
+
+ .body2 .big {
+  font-weight: 700;
+  font-size: 16px;
+ }
+
+ .bi {
+  font-weight: 700;
+ }
+
+ legend {
+  font-weight: 700;
+ }
+
+ .total_big {
+  font-weight: 700;
+  font-size: 14px;
+ }
+
+ .bol {
+  font-weight: 700;
+ }
+
